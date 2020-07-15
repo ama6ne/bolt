@@ -7,6 +7,14 @@
   margin: 0 auto;
 }
 
+body {
+  font-family: lato;
+}
+
+.is-ralwey {
+  font-family: ralwey;
+}
+
 /* 共通 */
 
 
@@ -23,6 +31,9 @@ header {
   width: 100%;
   background-color: #fff;
   padding: 15px 0;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .header--button {
@@ -32,7 +43,7 @@ header {
   padding:14px 12px;
   background-color: #74cfae;
   color: #fff;
-  transition color: 0.3s;
+  transition: color 0.3s;
 }
 
 .header--button:hover {
@@ -49,22 +60,26 @@ header {
 
 /* main */
 
+main {
+  padding-top: 70px;
+}
+
 .theme {
   background-color: #f2f2f2;
-  padding: 250px;
+  padding: 250px 0;
   text-align: center;
 }
 
-.theme h1 {
+.title {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
-  padding-bottom: 20px;
 }
 
-.theme h2 {
+.theme p {
   font-size: 30px;
   color: #c0c0c0;
+  margin-top: 20px;
 }
 
 /* main */
@@ -95,15 +110,15 @@ header {
   text-align: center;
 }
 
-.phone__block--text h3 {
+.phone__block--text h2 {
   color: #fff;
   font-size: 24px;
-  padding-bottom: 35px;
 }
 
 .phone__block--text p {
   color: #fff;
   font-size: 20px;
+  margin-top: 35px;
 }
 
 
@@ -114,12 +129,12 @@ header {
 
 .box__block {
   background-color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 70px;
 }
 
-.box-inner h3 {
+.box-inner h2 {
   font-size: 24px;
-  padding-top: 60px;
-  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -130,8 +145,7 @@ header {
 .six-box--text {
   display: flex;
   justify-content: center;
-  padding-bottom: 70px;
-  padding-top: 90px;
+  margin-top: 90px;
 }
 
 .box__block--text {
@@ -147,7 +161,7 @@ header {
   background-color: #74cfae;
   padding: 14px 20px;
   color: #fff;
-  transition color: 0.3s;
+  transition: color 0.3s;
 }
 
 .box--button:hover {
@@ -157,6 +171,7 @@ header {
 
 .six-box {
   font-size: 0;
+  margin-top: 40px;
 }
 
 .six-box__6 {
@@ -194,7 +209,7 @@ header {
   text-align: center;
 }
 
-.circle-inner h3 {
+.circle-inner h2 {
   font-size: 24px;
   padding-bottom: 45px;
   color: #fff;
@@ -210,17 +225,12 @@ header {
   color: #fff;
   font-size: 16px;
   line-height: 30px;
-  padding-right: 90px;
-  padding-left: 90px;
+  margin-left: 180px;
   text-align: center; 
 }
 
-.cir__4:last-child {
-  padding-right: 0;
-}
-
 .cir__4:first-child {
-  padding-left: 0;
+  margin-left: 0;
 }
 
 /* section */
@@ -246,7 +256,7 @@ header {
   width: 185px;
   text-align: center;
   display: inline-block;
-  transition background-color: 0.3s;
+  transition: background-color 0.3s;
 }
 
 .sns--icon:hover {
