@@ -8,11 +8,11 @@
 }
 
 body {
-  font-family: lato;
+  font-family: 'lato',sans-serif;
 }
 
 .is-ralwey {
-  font-family: ralwey;
+  font-family: 'ralwey',sans-serif;
 }
 
 /* 共通 */
@@ -44,6 +44,7 @@ header {
   background-color: #74cfae;
   color: #fff;
   transition: color 0.3s;
+  cursor: pointer;
 }
 
 .header--button:hover {
@@ -96,17 +97,17 @@ header {
 .inner.phone-inner {
   display: flex;
   justify-content: center;
-  align-items: center;
+  line-height: 1.5;
 }
 
 .iphone {
-  width: 30%;
+  width: 40%;
   text-align: center;
 }
 
 .phone__block--text {
   display: inline-block;
-  width: 70%;
+  width: 60%;
   text-align: center;
 }
 
@@ -142,7 +143,7 @@ header {
   font-size: 0;
 }
 
-.six-box--text {
+.box--text {
   display: flex;
   justify-content: center;
   margin-top: 90px;
@@ -151,7 +152,7 @@ header {
 .box__block--text {
   font-size: 20px;
   text-align: center;
-  width: 60%;
+  width: 53%;
   margin-right: 90px;
 }
 
@@ -162,6 +163,7 @@ header {
   padding: 14px 20px;
   color: #fff;
   transition: color 0.3s;
+  cursor: pointer;
 }
 
 .box--button:hover {
@@ -169,7 +171,7 @@ header {
 }
 
 
-.six-box {
+.box_our-latest-works {
   font-size: 0;
   margin-top: 40px;
 }
@@ -180,6 +182,7 @@ header {
   margin-top: 80px;
   transition: all 0.3s;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .our-latest-work_img:hover {
@@ -214,14 +217,14 @@ header {
   font-size: 24px;
   color: #fff;
   text-align: center;
-  padding-bottom: 45px;
 }
 
-.circle__image {
+.circle_our-skills {
   display: flex;
+  margin-top: 45px;
 }
 
-.cir__4 {
+.our-skill_img {
   display: inline-block;
   color: #fff;
   font-size: 16px;
@@ -230,7 +233,7 @@ header {
   text-align: center; 
 }
 
-.cir__4:first-child {
+.our-skill_img:first-child {
   margin-left: 0;
 }
 
@@ -258,6 +261,7 @@ header {
   text-align: center;
   display: inline-block;
   transition: background-color 0.3s;
+  cursor: pointer;
 }
 
 .sns--icon:hover {
