@@ -60,7 +60,7 @@ header {
 
 /* main */
 
-main {
+.main {
   padding-top: 70px;
 }
 
@@ -70,13 +70,13 @@ main {
   text-align: center;
 }
 
-.title {
+.theme-title {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
 }
 
-.theme p {
+.theme-text {
   font-size: 30px;
   color: #c0c0c0;
   margin-top: 20px;
@@ -90,6 +90,7 @@ main {
 .phone__block {
   background-color: #74cfae;
   font-size: 0;
+  padding-top: 50px;
 }
 
 .inner.phone-inner {
@@ -99,7 +100,6 @@ main {
 }
 
 .iphone {
-  padding-top: 50px;
   width: 30%;
   text-align: center;
 }
@@ -110,12 +110,12 @@ main {
   text-align: center;
 }
 
-.phone__block--text h2 {
+.phone-title {
   color: #fff;
   font-size: 24px;
 }
 
-.phone__block--text p {
+.phone-text {
   color: #fff;
   font-size: 20px;
   margin-top: 35px;
@@ -133,7 +133,7 @@ main {
   padding-bottom: 70px;
 }
 
-.box-inner h2 {
+.box-title {
   font-size: 24px;
   text-align: center;
 }
@@ -174,22 +174,23 @@ main {
   margin-top: 40px;
 }
 
-.six-box__6 {
+.our-latest-work_img {
   display: inline-block;
   margin-left: 100px;
   margin-top: 80px;
+  transition: all 0.3s;
   opacity: 0.7;
 }
 
-.six-box__6:hover {
+.our-latest-work_img:hover {
   opacity: 1;
 }
 
-.six-box .six-box__6:nth-child(3n+1) {
+.our-latest-work_img:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.six-box .six-box__6:nth-child(-n+3) {
+.our-latest-work_img:nth-child(-n+3) {
   margin-top: 0;
 }
 
@@ -201,19 +202,19 @@ main {
 .circle__block {
   background-color: #4e4e4e;
   font-size: 0;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 .circle-inner {
-  padding-top: 70px;
-  padding-bottom: 100px;
   text-align: center;
 }
 
-.circle-inner h2 {
+.circle-title {
   font-size: 24px;
-  padding-bottom: 45px;
   color: #fff;
   text-align: center;
+  padding-bottom: 45px;
 }
 
 .circle__image {
@@ -240,12 +241,12 @@ main {
 .nav__block {
   font-size: 0;
   background-color:#f2f2f2;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .nav-inner {
   display: flex;
-  padding-top: 200px;
-  padding-bottom: 200px;
   justify-content: center;
 }
 
