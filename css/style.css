@@ -20,7 +20,7 @@ body {
 
 /* header */
 
-.inner.header-inner {
+.header-inner {
   display: flex;
   justify-content: space-between;
 }
@@ -94,7 +94,7 @@ header {
   padding-top: 50px;
 }
 
-.inner.phone-inner {
+.phone-inner {
   display: flex;
   justify-content: center;
   line-height: 1.5;
@@ -153,7 +153,6 @@ header {
   font-size: 20px;
   text-align: center;
   width: 53%;
-  margin-right: 90px;
 }
 
 .box--button {
@@ -164,6 +163,7 @@ header {
   color: #fff;
   transition: color 0.3s;
   cursor: pointer;
+  margin-left: 90px;
 }
 
 .box--button:hover {
@@ -228,9 +228,12 @@ header {
   display: inline-block;
   color: #fff;
   font-size: 16px;
-  line-height: 30px;
   margin-left: 180px;
   text-align: center; 
+}
+
+.our-skill_text {
+  margin-top: 20px;
 }
 
 .our-skill_img:first-child {
