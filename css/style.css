@@ -335,31 +335,16 @@ body {
 
   .box--text {
     display: block;
-    margin-top: 0;
+    margin-top: 80px;
   }
   
   .box__block--text {
     margin: 0 auto;
     width: 100%;
-    margin-top: 80px;
   }
   
   .box--button {
-    padding: 14px 20px;
-    color: #fff;
-    transition: color 0.3s;
-    cursor: pointer;
     margin-left: 0;
-    margin-top: 40px;
-  }
-  
-  .box--button:hover {
-    color: #333;
-  }
-  
-  
-  .box_our-latest-works {
-    font-size: 0;
     margin-top: 40px;
   }
   
@@ -367,15 +352,8 @@ body {
     display: block;
     margin-left: 0px;
     margin-top: 0px;
-    transition: all 0.3s;
-    opacity: 0.7;
-    cursor: pointer;
   }
-  
-  .our-latest-work_img:hover {
-    opacity: 1;
-  }
-  
+
   .our-latest-work_img:nth-child(3n+4) {
     margin-top: 80px;
   }
@@ -384,14 +362,8 @@ body {
 
   /* section */
 
-  .circle-inner {
-    text-align: center;
-  }
-
   .circle_our-skills {
     display: block;
-    margin-top: 45px;
-    justify-content: center;
   }
 
   .our-skill_img {
@@ -402,6 +374,7 @@ body {
 
   .our-skill_img:first-child {
     margin-left: 0;
+    margin-top: 0;
   }
 
   /* section */
@@ -411,6 +384,8 @@ body {
 @media screen and (max-width: 767px) {
 
   /*header*/
+
+
   /*header*/
 
 
@@ -448,7 +423,7 @@ body {
     display: block;
     font-size: 40px;
     line-height: 100px;
-    width: 100vw;
+    width: 100%;
   }
 
   /*nav*/
